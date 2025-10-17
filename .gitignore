@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+
+# Configuration files (sensitive or local-specific)
+.env
+config.local.py
+settings.local.py
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# Test coverage
+.coverage
+.coverage.*
+
+# FastAPI specific
+# If you are using any specific build output directories for your FastAPI application,
+# add them here. For example, if you build a frontend that gets served by FastAPI.
+# static/build/
